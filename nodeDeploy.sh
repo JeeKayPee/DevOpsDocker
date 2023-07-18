@@ -1,4 +1,4 @@
-curl -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts
+sudo curl -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts
 # If you want n installed, you can use npm now.
-npm install -g n
-node --version
+sudo npm install -g n
+sudo node --version
